@@ -1,0 +1,20 @@
+ol { 
+    color : green;
+    background-color: black;
+    display: inline-block;
+}
+
+.alert-text {
+    color: red;
+  }
+
+  * {
+    outline: 2px solid red;
+    border: 1px;
+    margin: 1px;
+    padding: 1px;
+  }
+  button{
+    display: block;
+  }
+  
