@@ -5,16 +5,44 @@ ol {
 }
 
 .alert-text {
+    display: flex;
     color: red;
-  }
-
-  * {
     outline: 2px solid red;
     border: 1px;
     margin: 1px;
-    padding: 1px;
+    
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
   }
+
+  .item{
+    background: skyblue;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    border: 10px grey
+    
+  }
+
+
   button{
     display: block;
   }
+
+  .flex-container {
+  display: flex;
+}
+
+
+.flex-container div {
+  background: rgb(255, 255, 255);
+  border: 4px solid rgb(0, 0, 0);
+  height: 100px;
+  flex: 1 1 0%;
+}
   
